@@ -84,7 +84,7 @@
 	</profiles>
 	<properties>
 		<!-- Common libs -->
-		<spring.bom.version>3.2.9.RELEASE</spring.bom.version>
+		<spring.bom.version>4.1.5.RELEASE</spring.bom.version>
 		<javassist_version>3.15.0-GA</javassist_version>
 		<netty_version>3.7.0.Final</netty_version>
 		<mina_version>1.1.7</mina_version>
@@ -122,7 +122,7 @@
 		<log4j_version>1.2.16</log4j_version>
 		<logback_version>1.0.6</logback_version>
 		<!-- Test libs -->
-		<junit_version>4.10</junit_version>
+		<junit_version>4.11</junit_version>
 		<easymock_version>3.0</easymock_version>
 		<jmockit_version>0.999.8</jmockit_version>
 		<!-- Build args -->
@@ -145,18 +145,18 @@
 		<profile.name>oss</profile.name>
 
 		<!-- for maven compiler plugin -->
-		<maven_compiler_plugin_version>2.3.2</maven_compiler_plugin_version>
+		<maven_compiler_plugin_version>3.2</maven_compiler_plugin_version>
 		<java_source_version>1.6</java_source_version>
 		<java_target_version>1.6</java_target_version>
 		<file_encoding>UTF-8</file_encoding>
 
 		<maven_source_plugin_version>2.1.1</maven_source_plugin_version>
-		<maven_jar_plugin_version>2.3.2</maven_jar_plugin_version>
-		<maven_war_plugin_version>2.1.1</maven_war_plugin_version>
-		<maven_install_plugin_version>2.3.1</maven_install_plugin_version>
-		<maven_deploy_plugin_version>2.7</maven_deploy_plugin_version>
+		<maven_jar_plugin_version>2.5</maven_jar_plugin_version>
+		<maven_war_plugin_version>2.6</maven_war_plugin_version>
+		<maven_install_plugin_version>2.5.2</maven_install_plugin_version>
+		<maven_deploy_plugin_version>2.8.2</maven_deploy_plugin_version>
 
-        <maven-surefire-plugin_version>2.17</maven-surefire-plugin_version>
+        <maven-surefire-plugin_version>2.18.1</maven-surefire-plugin_version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
